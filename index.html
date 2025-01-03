@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <title>Home - SoftPrint Media</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="brand-logo">SOFTPRINT MEDIA <br>
+                <p>...Bringing graphics to your doorstep since 2017</p>
+            </div>
+            
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                ☰
+            </button>
+            <ul class="nav-links">
+                <li><a href="/#home">Home</a></li>
+                <li><a href="/#services">Services</a></li>
+                <li><a href="/#trusted-clients">Clents</a></li>
+                <li><a href="/#company">Company</a></li>
+                <li><a href="/#ourwork">Our Work</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="home-section">
+            <div class="home-content">
+                <!--<h1 id="typewriter">World of Innovation</h1>-->
+                <p></p>
+            </div>
+        </section>
+        <!-- Request for a Quote Modal -->
+        <div class="floating-quote">
+            Request a Quote
+        </div>
+        
+        <div class="quote-dialog hidden">
+            <div class="dialog-content">
+                <h3>Request for a Quote</h3>
+                <p>Fill in your details, and we'll get back to you:</p>
+                <form class="quote-form" action="send-email.php" method="post">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Required</label>
+                        <select id="service" name="service" required>
+                            <option value="" disabled selected>Select a Service</option>
+                            <option value="Large-Format">Large Format Printing</option>
+                            <option value="Digital-Printing">Digital Printing</option>
+                            <option value="offset-printing">Offset Printing</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+                <button class="close-dialog">Close</button>
+            </div>
+        </div>
+        <!--Company Profile-->
+        <section class="executive-summary" id="company">
+            <h2>Executive Summary</h2>
+            <p>
+                <span style="color: #ac0b7e;">SOFTPRINT MEDIA LIMITED</span> is a budding state of the art full service printing company that was established in 2017 and Incorporated in 4th Jan 2022 and with Registration No. 80020003432909.
+            </p>
+            <p>
+                It is focused on bringing Graphics and printing services to you Door Steps with “NO NEED” of leaving your office, Samples and done and approved online via Whatsapp or Mail, But where there’s need for a physical sample, it is provided before commencent of work
+            </p>
+            <p>
+                The foundation of our business is based integrity and honesty and We take pride in the client relationships that have developed resulting in interdependency and mutual growth.
+            </p>
+          </section>
+          
+          <section class="profile-section">
+            <div class="profile-item">
+              <div class="icon mission-icon"></div>
+              <div class="content">
+                <h3 style="color: #29abe2;">Mission</h3>
+                <p>
+                  To provide high-quality timely print services to our clientele by demonstrating diligence, responsiveness, and building on our culture of excellence. We strive to deliver the highest-quality products with a focus on delivery time and customer satisfaction.
+                </p>
+              </div>
+            </div>
+          
+            <div class="profile-item">
+              <div class="icon vision-icon"></div>
+              <div class="content">
+                <h3 style="color: #ec008c;">Vision</h3>
+                <p>
+                  To become Uganda's leading printing company by providing high-quality and reliable service to our clientele. We aim to consistently meet and exceed client expectations with quality materials and timely delivery.
+                </p>
+              </div>
+            </div>
+          
+            <div class="profile-item">
+              <div class="icon values-icon"></div>
+              <div class="content">
+                <h3 style="color: #fcbf01;">Values</h3>
+                <p>
+                  Our core values include Quality, Timely Deliveries, Client Orientation, Excellence, Leadership, Teamwork, Integrity, and Diversity. These values guide our approach to providing exceptional service.
+                </p>
+              </div>
+            </div>
+          </section>
+          
+        
+        <!--Service Section-->
+
+        <section id="services">
+            <h2>What we do!</h2>
+            <div class="services-container">
+                <div class="services-text">
+                    <div class="service-category">
+                        <h3>Digital Printing</h3>
+                        <ul>
+                            <li>Business Cards</li>
+                            <li>Invitation Cards</li>
+                            <li>Posters (A4, A3, A2)</li>
+                            <li>Menus</li>
+                            <li>Letterhead</li>
+                            <li>Brochures / Fliers etc</li>
+                        </ul>
+                    </div>
+                    <div class="service-category">
+                        <h3>Large Format Printing</h3>
+                        <ul>
+                            <li>Billboards</li>
+                            <li>Banners</li>
+                            <li>Block Out / Backlit</li>
+                            <li>Vinyl Sticker</li>
+                            <li>One Way Graphics</li>
+                            <li>Highway Banners</li>
+                        </ul>
+                    </div>
+                    <div class="service-category">
+                        <h3>Offset Printing</h3>
+                        <ul>
+                            <li>Posters</li>
+                            <li>Receipt Books</li>
+                            <li>LPO Books</li>
+                            <li>Calendars</li>
+                            <li>Complimentary Slips</li>
+                        </ul>
+                    </div>
+                    <div class="service-category">
+                        <h3>Branding</h3>
+                        <ul>
+                            <li>Vehicle Branding</li>
+                            <li>Office Branding</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="services-images">
+                    <figure>
+                        <img src="img/design_studio.jpg" alt="Graphic Designing Studio">
+                        <figcaption>Graphic Designing Studio</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/ctp.jpg" alt="Computer to Plate Machine (CTP)">
+                        <figcaption>Computer to Plate Machine (CTP)</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/gullotine.jpg" alt="Guillotine">
+                        <figcaption>Guillotine</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <!--Products Section-->
+        <section class="product-gallery" id="ourwork">
+            <h2 class="gallery-title">Glimpse of Our Products</h2>
+            <div class="gallery-container">
+                <!-- Example of product items -->
+                <div class="product-item">
+                    <img src="img/report.jpg" alt="Magazines & Annual Reports">
+                    <p>Magazines & Annual Reports</p>
+                </div>
+                <div class="product-item">
+                    <img src="img/letterhead.jpg" alt="Letterheads">
+                    <p>Letterheads</p>
+                </div>
+                <div class="product-item">
+                    <img src="img/calenders.jpg" alt="Wall & Table Calendars">
+                    <p>Wall & Table Calendars</p>
+                </div>
+                <div class="product-item">
+                    <img src="img/envelopes.jpg" alt="Envelopes">
+                    <p>Envelopes</p>
+                </div>
+                <div class="product-item">
+                    <img src="img/poster.jpg" alt="Posters">
+                    <p>Posters</p>
+                </div>
+                <div class="product-item">
+                    <img src="img/flyers.jpg" alt="Flyers">
+                    <p>Flyers</p>
+                </div>
+            </div>
+            <button class="see-more-btn" onclick="window.location.href='products.html'">See More</button>
+        </section>
+        
+
+        <!--Client Section-->
+        <section id="trusted-clients" class="clients-section">
+            <h2>Trusted Clients</h2>
+            <div class="clients-grid">
+                <!-- Example placeholders for client logos -->
+                <div class="client-logo">
+                    <img src="img/christian_union.jpg" alt="Client 1 Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="img/micro_finance.jpg" alt="Client 2 Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="img/ymca.jpg" alt="Client 3 Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="img/motors.jpg" alt="Client 4 Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="img/lexus.jpg" alt="Client 4 Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="img/jet.jpg" alt="Client 4 Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="img/nexus.jpg" alt="Client 4 Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="img/wanride.jpg" alt="Client 4 Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="img/harris.jpg" alt="Client 4 Logo">
+                </div>
+                <div class="client-logo">
+                    <img src="img/justice.jpg" alt="Client 4 Logo">
+                </div>
+                <!-- Add more logos as needed -->
+            </div>
+        </section>
+
+        <!---->
+        
+        
+    </main>
+    <!--Footer Section-->
+    <footer>
+        <div class="footer-container">
+            <!-- Contact Info -->
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>SoftPrint Media</p>
+                <p>P.O.Box 157213, Kampala, Uganda</p>
+                <p>📍Nasser Road Street,Nasser BBusiness Center,Level 5, Room Z702</p>
+                <p>(+256) 788 117 685</p>
+                <p>(+256) 754 556 185</p>
+                <p>info@softprintmedia.com</p>
+            </div>
+    
+            <!-- Menu -->
+            <div class="footer-section">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#work">What we do</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+    
+            <!-- Follow Us 
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-media">
+                    <p>Nothing to see here - yet</p>
+                    <button class="social-btn">View on X</button>
+                </div>
+            </div>-->
+        </div>
+    
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p>
+                At Softptint Media we believe in clients promotional ideas.That ensure their brands
+                reaches far and effectively.We offer a wide array of promotional in equally variagating
+                options of design,color,sizes,etc.
+            </p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>    
+</body>
+<script src="script.js"></script>
+</html>
